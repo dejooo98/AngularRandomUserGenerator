@@ -1,0 +1,12 @@
+img {
+  width: 100px;
+}
+.user {
+  width: 300px;
+  height: auto;
+  display: inline-grid;
+  padding: 2rem;
+  margin: 0.5rem;
+  border: 1px solid #0000001c;
+  border-radius: 5px;
+}

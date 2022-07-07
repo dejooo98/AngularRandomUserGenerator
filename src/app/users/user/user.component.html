@@ -1,0 +1,7 @@
+<div class="user">
+  <img src="{{ user.picture.medium }}" alt="" />
+  <p>Name: {{ user.name.first }}</p>
+  <p>Last Name: {{ user.name.last }}</p>
+  <p>Address: {{ user.location.street.name }}</p>
+  <a class="btn btn-primary" (click)="getUser(user)"> View More </a>
+</div>

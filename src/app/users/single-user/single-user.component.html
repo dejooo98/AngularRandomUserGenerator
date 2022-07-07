@@ -1,0 +1,10 @@
+<div class="user__container">
+  <img src="{{ user.picture.large }}" alt="" />
+  <p>Name: {{ user.name.first }}</p>
+  <p>Last Name: {{ user.name.last }}</p>
+  <p>Address: {{ user.location.street.name }}</p>
+  <p>Email: {{ user.email }}</p>
+  <p>Email: {{ user.phone }}</p>
+  <p>Email: {{ user.gender }}</p>
+  <button class="btn-primary" routerLink="/users">Back to Users</button>
+</div>
