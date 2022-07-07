@@ -1,0 +1,14 @@
+.user__container {
+  width: 400px;
+  height: auto;
+  padding: 2rem;
+  margin: 0 auto;
+  border: 1px solid #8080806b;
+}
+img {
+  width: 150px;
+  padding-bottom: 1rem;
+}
+p {
+  font-weight: 700;
+}
